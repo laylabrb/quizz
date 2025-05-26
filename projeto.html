@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Quiz para programadores</title>
+        <meta name="description" content="Um quiz interativo para testar os seus conhecimentos": >
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Quiz interativo para programadores</h1>
+            <p>Teste seus conhecimentos em programação e veja qual pontuação você consegue fazer!</p>
+        </header>
+        <main>
+            <!--Introduçâo-->
+            <section>
+                <h2>Sobre esse quiz</h2>
+                <p><strong>Esse quiz</strong> foi criado para testar seu conhecimento em programação, com <em>linguagem de programação</em>, conceitos basicos e mais</p>
+                <p>Você encontrará diferentes tipos de perguntas, incluindo múltipla escolha. <br> Desafie-se com este quiz, e principalmente, se divirta! </p>
+                <p>Você poderá encontrar alguns acrônimos como <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>, Qque são comuns na criação de web.</p>
+            </section>
+            <!--Pergunta 1-->
+            <section>
+                <h2>Pergunta 1: Qual dessas linguagens é mais usada para desenvolvimento web no lado do cliente (frontend)?</h2>
+                <form>
+                    <input type="radio" value="Python" id="p1a" name="pergunta1">
+                    <label for="p1a">Python</label> <br>
+                    <input type="radio" value="HTML" id="p1b" name="pergunta1">
+                    <label for="p1b">HTML</label> <br>
+                    <input type="radio" value="Java" id="p1c" name="pergunta1">
+                    <label for="p1c">Java</label> <br> 
+                    <input type="radio" value="Javascript" id="p1d" name="pergunta1">
+                    <label for="p1a">Javascript</label> <br>
+                </form>
+            </section>
+            <!--Pergunta 2-->
+            <section>
+                <h2>Pergunta 2: O que significa a sigla HTML?</h2>
+                <form>
+                    <input type="radio" value="Hyper Type Machine Language" id="p1a" name="pergunta2">
+                    <label for="p1a">Hyper Type Machine Language</label> <br>
+                    <input type="radio" value="HyperText Markup Language" id="p1b" name="pergunta2">
+                    <label for="p1b">HyperText Markup Language</label> <br>
+                    <input type="radio" value="HighText Machine Language" id="p1c" name="pergunta2">
+                    <label for="p1c">HighText Machine Language</label> <br> 
+                    <input type="radio" value="HyperTransfer Markup Language" id="p1d" name="pergunta2">
+                    <label for="p1a">HyperTransfer Markup Language</label> <br>
+                <!--<input type="text" id="p2" name="pergunta2" placeholder="Digite aqui">-->
+                </form>
+            </section>
+             <!--Pergunta 3-->
+             <section>
+                <h2>Pergunta 3: Qual comando em Python imprime algo na tela?</h2>
+                <form>
+                    <input type="radio" value="Display" id="p1a" name="pergunta3">
+                    <label for="p1a">Display</label> <br>
+                    <input type="radio" value="Echo" id="p1b" name="pergunta3">
+                    <label for="p1b">Echo</label> <br>
+                    <input type="radio" value="Print" id="p1c" name="pergunta3">
+                    <label for="p1c">Print</label> <br> 
+                    <input type="radio" value="Show" id="p1d" name="pergunta3">
+                    <label for="p1a">Show</label> <br>
+                </form>
+             </section>
+             <!--Pergunta 4-->
+             <section>
+                <h2>Pergunta 4: Em que ano o HTML lançou sua primeira versão?</h2>
+                <form>
+                    <input type="date" id="p4" name="pergunta4">
+                </form>
+             </section>
+             <!--Pergunta 5-->
+             <section>
+                <h2>Pergunta 5: Em qual linguagem se usa a instrução System.out.println()?</h2>
+                <form>
+                   
+                </form>
+             </section>
+             <!--Pergunta 7-->
+             <section>
+                <h2>Pergunta 7: Selecione o atributo do input que define o seu tipo:</h2>
+                <form>
+                    <select name="pergunta7" id="p7">
+                        <option value="id">id</option>
+                        <option value="text">text</option>
+                        <option value="placeholder">placeholder</option>
+                    </select>
+                </form>
+             </section>
+             <!--Pergunta 7-->
+             <section>
+                <h2>Pergunta 7: Qual linguagem de programação é representada pelo logotipo abaixo?</h2>
+                <figure>
+                <img src="images (1).png" alt="Logotipo de uma linguagem de programação" > <br>
+                <figcaption>Logotipo de uma linguagem de programação</figcaption>
+                </figure>
+                <input type="text" id="p7" name="pergunta7" placeholder="Digite sua resposta.">
+             </section>
+             <!--Tabela de pontuacao-->
+             <section>
+                <h2>Tabela de pontuação</h2>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Pontuação</th>
+                            <th>Avaliação</th>
+                        </tr>
+
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>0-2</td>
+                        <td>Não desista! Estude mais.</td>
+                    </tr>
+                     <tr>
+                        <td>3-4</td>
+                        <td>Você está indo bem.</td>
+                    </tr>
+                     <tr>
+                        <td>5-6</td>
+                        <td>Seu conhecimento está otimo.</td>
+                    </tr>
+                     <tr>
+                        <td>7</td>
+                        <td>Perfeito! Você sabe de tudo.</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2"> Boa sorte na proxima!</td>
+                    </tr>
+                </tfoot>
+                </table>
+             </section>
+             <!--Lista de respostas-->
+             <section>
+                <h2>Verifique suas respostas</h2>
+                <details>
+                    <summary>Clique aqui para ver as respostas do quiz.</summary>
+                <ol>
+                    <li>HTML</li>
+                    <li>Domínio</li>
+                    <li>S@W!F.</li>
+                    <li>1991</li>
+                    <li>Javascript e Java</li>
+                    <li>Type</li>
+                    <li>Java</li>
+                </ol>
+                </details>
+             </section>
+        </main>
+        <footer>
+            <p>&copy Quiz dos programadores. Todos os direitos reservados.</p>
+            <p>Para conhecer outros quizzes,<a href=""> clique aqui</a></p>
+        </footer>
+    </body>
+</html>
